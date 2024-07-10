@@ -16,7 +16,7 @@ const MovieDetail = () => {
                 <p>{movie.description}</p>
                 <p>Price per ticket: ₹{movie.price}</p>
                 <button onClick={() => navigate(`/booking/${movie.id}`)}>Proceed to Booking</button>
-            </div> <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+            </div> <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
         </div>
     );
 };

@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes, useLocation } from "react-router-dom";
+import { HashRouter as Router, Route, Routes, useLocation } from "react-router-dom";
 import Login from "./components/Login";
 import Registration from "./components/Registration";
 import Home from "./components/Home";
@@ -14,8 +14,9 @@ const App = () => {
     const location = useLocation();
     const hideHeaderFooter = ["/", "/registration"].includes(location.pathname);
 
+
     return (
-        <div className="app">
+       <div className="app">
             {!hideHeaderFooter && <Header />}
             <Routes>
                 <Route path="/" element={<Login />} />
@@ -26,13 +27,22 @@ const App = () => {
                 <Route path="/payment" element={<Payment />} />
             </Routes>
             {!hideHeaderFooter && <Footer />}
+            
         </div>
+        
+       
+       
     );
 };
 
 const AppWrapper = () => (
     <Router>
-        <App />
+      <div className='wrapper'>
+        
+          <App />
+          
+      </div>
+      
     </Router>
 );
 

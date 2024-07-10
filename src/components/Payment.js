@@ -22,8 +22,8 @@ const Payment = () => {
 
             {paymentSuccess ? (
                 <div className="success-message">
-                  <center><p><h3>Congratulations..!! <br/>Your payment has been successfully processed.</h3></p>
-                    <p><h4>Your ticket has been successfully booked. <br/>Thank You for Your Booking!</h4></p> </center>
+                  <center><p><h1>Congratulations..!! <br/>Your payment has been successfully processed.</h1></p>
+                    <p><h2>Your ticket has been successfully booked. <br/>Thank You for Your Booking!</h2></p> </center>
                     <button onClick={handleBackToHome} className="back-home-button">Back To Home Page</button>
                 </div>
             ) : (
@@ -90,7 +90,11 @@ const Payment = () => {
                           required
                         />
                       </div>
-                    </div> <br /><br /><br />
+                    </div> <br /><br />
+                    <h2> <u>Total Ammount & Seat Details:</u> </h2>
+                    <p><center>Selected Seats: {selectedSeats.join(", ")}</center></p>
+                    <p><center>Total Price: ₹{selectedSeats.length * movie.price}</center></p><br /><br /><br />
+                    <h2> <u>Continue Payment Process:</u> </h2><br /><br/><br/>
                     <h2> <u>Enter Card Details: </u></h2> 
                   
                   <div className="form-group">
@@ -108,15 +112,11 @@ const Payment = () => {
                 <div className="form-group">
                     <label>CVV:</label>
                     <input type="tel" placeholder="000" maxLength="3"required />
-                </div> <br /><br /><br />
-                <h2> <u>Total Ammount & Seat Details:</u> </h2>
-                    <p><center>Selected Seats: {selectedSeats.join(", ")}</center></p>
-                    <p><center>Total Price: ₹{selectedSeats.length * movie.price}</center></p>
-                    
+                </div> 
                     <button type="submit">Pay Now</button>
             </form>
                 </div>
-            )}  <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+            )}  <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
         </div> 
     );
 };

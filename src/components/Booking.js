@@ -46,7 +46,7 @@ const Booking = () => {
             </div>
             <h3>Total Price: ₹{totalPrice}</h3>
             <button onClick={handleCheckout}>Goto Checkout & Payment </button>
-            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br/><br/>
         </div> 
     );
 };

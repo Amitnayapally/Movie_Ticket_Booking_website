@@ -1,6 +1,9 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, Sans-serif;
     background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    background-repeat: repeat;
+    height: 100vh;
+  
 }
 
 header {
@@ -8,4 +11,10 @@ header {
     color: white;
     padding: 1rem;
     text-align: center;
+}
+
+footer{
+    margin-top: auto;
+    background-color: #333;
+
 }

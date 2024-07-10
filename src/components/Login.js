@@ -12,7 +12,7 @@ const Login = () => {
 
     return (
         <div className="container">
-            <header><h1>Login To Ticket Booking Application</h1></header>
+            <header><h1>Login To Movie Ticket Booking Application</h1></header>
             <h2>Login</h2>
             <form onSubmit={handleLogin}>
                 <div className="form-group">
