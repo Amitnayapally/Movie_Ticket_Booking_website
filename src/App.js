@@ -17,7 +17,7 @@ const App = () => {
     return (
         <div className="app">
             {!hideHeaderFooter && <Header />}
-            <Routes basename="/Movie_Ticket_Booking_website">
+            <Routes>
                 <Route path="/" element={<Login />} />
                 <Route path="/registration" element={<Registration />} />
                 <Route path="/home" element={<Home />} />
