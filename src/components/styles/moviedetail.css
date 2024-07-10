@@ -1,0 +1,25 @@
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.movie-detail {
+    text-align: center;
+    padding: 2rem;
+    border: 1px solid #ddd;
+}
+
+.movie-detail img {
+    width: 200px;
+    height: 250px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

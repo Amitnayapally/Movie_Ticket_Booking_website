@@ -1,0 +1,32 @@
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+.seats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px;
+    background-color: #ddd;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+button.selected {
+    background-color: red;
+    color: white;
+}
+
+button:hover {
+    background-color: #ccc;
+}
