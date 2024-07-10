@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Movie_Ticket_Booking_website/static/css/main.784f7eca.css",
-    "main.js": "/Movie_Ticket_Booking_website/static/js/main.2bef5769.js",
+    "main.css": "/Movie_Ticket_Booking_website/static/css/main.ed8e4cee.css",
+    "main.js": "/Movie_Ticket_Booking_website/static/js/main.8b6063b0.js",
     "static/media/movie1.jpg": "/Movie_Ticket_Booking_website/static/media/movie1.f498fbf748ac2623cf4f.jpg",
     "static/media/movie3.jpg": "/Movie_Ticket_Booking_website/static/media/movie3.eee4e2a253c99a2df009.jpg",
     "static/media/movie4.jpg": "/Movie_Ticket_Booking_website/static/media/movie4.b8669b2ed6350aacc84f.jpg",
     "static/media/movie2.jpg": "/Movie_Ticket_Booking_website/static/media/movie2.bb1c9a408429b5416cdb.jpg",
     "static/media/movie5.jpg": "/Movie_Ticket_Booking_website/static/media/movie5.f91ae3239ce4b98e15aa.jpg",
     "index.html": "/Movie_Ticket_Booking_website/index.html",
-    "main.784f7eca.css.map": "/Movie_Ticket_Booking_website/static/css/main.784f7eca.css.map",
-    "main.2bef5769.js.map": "/Movie_Ticket_Booking_website/static/js/main.2bef5769.js.map"
+    "main.ed8e4cee.css.map": "/Movie_Ticket_Booking_website/static/css/main.ed8e4cee.css.map",
+    "main.8b6063b0.js.map": "/Movie_Ticket_Booking_website/static/js/main.8b6063b0.js.map"
   },
   "entrypoints": [
-    "static/css/main.784f7eca.css",
-    "static/js/main.2bef5769.js"
+    "static/css/main.ed8e4cee.css",
+    "static/js/main.8b6063b0.js"
   ]
 }
